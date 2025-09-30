@@ -1,5 +1,4 @@
-#  LSTM-Transformer Model for Market Data Prediction  #
-It models multivariate time-series market data spanning several years.
+#  LSTM-Transformer Model for Time-series Data Prediction  #
 
 ## Highlights
 - **Scalable preprocessing with Dask:** mitigates out-of-memory issues by parallelizing feature engineering and enabling chunked.
@@ -49,6 +48,7 @@ https://dl.acm.org/doi/abs/10.1145/3534678.3539234?casa_token=rpp2ybvw7McAAAAA:d
   - `dropout`: drop out rate 
   
   - `used_features`: Features used in the models
+
 
 
 
