@@ -1,4 +1,4 @@
-#  ======== LSTM-Transformer Model for Market Data Prediction ======== #
+#  ==== LSTM-Transformer Model for Market Data Prediction ==== #
 It models multivariate time-series market data spanning several years.
 
 ## Highlights
@@ -16,7 +16,6 @@ https://dl.acm.org/doi/abs/10.1145/3534678.3539234?casa_token=rpp2ybvw7McAAAAA:d
 
 
 ## Repo Content
-# ---------------------------------------------
 
 | File          | Description |
 |------------------------|-------------|
@@ -26,7 +25,6 @@ https://dl.acm.org/doi/abs/10.1145/3534678.3539234?casa_token=rpp2ybvw7McAAAAA:d
 | `config.yaml`          | Define paths and model/training hyperparameters. |
 
 ## Configuration file
-# ---------------------------------------------
 
   - `train_data_path` (string type): the folder containing training data.
 
@@ -51,4 +49,5 @@ https://dl.acm.org/doi/abs/10.1145/3534678.3539234?casa_token=rpp2ybvw7McAAAAA:d
   - `dropout`: drop out rate 
   
   - `used_features`: Features used in the models
+
 
