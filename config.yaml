@@ -1,0 +1,19 @@
+# config.yaml
+train_data_path: "./dataset/"      
+save_model_path: "./best_model.pt"    
+
+params:        
+  lr: 1e-5
+  epoch_num: 1
+  device: "mps"
+  lookback: 63
+  batch_size: 64
+  chunk_size: 10000
+  model_dim: 64
+  nhead: 2
+  nlayer: 4
+  dropout: 0.1
+  used_features:
+    - feature1
+    - feature2
+    - feature3
