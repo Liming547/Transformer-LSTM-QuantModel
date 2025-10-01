@@ -6,8 +6,7 @@
 - **Trend Normalization (Chen et al.):** reproduces the paper’s normalization to suppress non-stationary trends and fluctuations, improving downstream performance.
 
 ## Notes: 
-- Dataset-specific feature engineering has been removed.  
-  This repo focuses on the model and the training process.
+- This is a basic model that displays the framework. Some detailed algo. and data processing are hiddened and can be modified based on it.
 
 
 ## Reference: 
@@ -48,6 +47,7 @@ https://dl.acm.org/doi/abs/10.1145/3534678.3539234?casa_token=rpp2ybvw7McAAAAA:d
   - `dropout`: drop out rate 
   
   - `used_features`: Features used in the models
+
 
 
 
